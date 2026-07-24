@@ -1,0 +1,708 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forum - Home</title>
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="https://bgimoti.forum/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://bgimoti.forum/css/styles.css">
+        <script>const BASE_URL = "https://bgimoti.forum";</script>
+        <script src="https://bgimoti.forum/js/search.js" defer></script>
+        <script src="https://bgimoti.forum/js/auth.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="https://bgimoti.forum/" class="logo">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> Community Forum
+                </a>
+                
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Search the forum..." autocomplete="off" class="search-input">
+                    <button class="search-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 14z"/></svg></button>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="/" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> <span class="hidden-mobile">Home</span></a>
+                    <button onclick="openLogin()" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg> <span class="hidden-mobile">Login</span></button>
+                    <button onclick="openRegister()" class="btn-primary"><svg class="icon" viewBox="0 0 24 24"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Register</button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="layout-container">
+            <main class="main-content">
+                
+    <h2 class="page-title">Latest Discussions</h2>
+    <div class="post-list">
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">финансы</span><span class="tag">болгария</span><span class="tag">переводы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/kak-vyvesti-dengi-ot-prodazhi-bolgarskoi-kvartiry-na-rodinu.html">Как вывести деньги от продажи болгарской квартиры на родину?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Недавно наконец-то продал квартиру в Бургасе, теперь ломаю голову над тем, как легально и с минимальными потерями перевести деньги в РФ. Банки сейчас лютуют, SWIFT-переводы через многие конторы не проходят или идут месяцами, а везти наличку через границу сами понимаете - такое себе удовольствие. Кто сталкивался с этим в последнее время, какие рабочие схемы сейчас существуют? Буду благодарен за любые реальные советы и контакты проверенных посредников, если таковые имеются.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vlad_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 28.01.2025 23:40</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (18).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">скважина</span><span class="tag">документы</span><span class="tag">дача</span><span class="tag">вода</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/nuzhny-li-kakie-to-razresheniia-na-burenie-skvazhiny-na-dachnom-uchastke.html">Нужны ли какие-то разрешения на бурение скважины на дачном участке?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Решили наконец-то заняться водоснабжением на даче, так как надоело таскать воду в канистрах. Планируем бурить обычную скважину на песок для полива и бытовых нужд, но соседи говорят, что сейчас за это могут оштрафовать, если нет каких-то документов. Подскажите, нужно ли оформлять какие-то разрешения или лицензии для личной скважины? У кого есть реальный опыт в этом деле, поделитесь информацией, пожалуйста.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Zoe_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 28.01.2025 08:33</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (15).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">нотариус</span><span class="tag">документы</span><span class="tag">перевод</span><span class="tag">сделка</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/obiazatelno-li-privlekat-prisiazhnogo-perevodchika-dlia-sdelki-u-notariusa.html">Обязательно ли привлекать присяжного переводчика для сделки у нотариуса?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Столкнулся с необходимостью оформить сделку у нотариуса, но один из участников не в полной мере владеет русским языком. Нотариус настаивает на присутствии присяжного переводчика, хотя у нас есть знакомый дипломированный переводчик, готовый всё перевести. Подскажите, действительно ли закон требует именно присяжного переводчика в данном случае или нотариус просто перестраховывается? Как можно решить этот вопрос с наименьшими затратами?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kate_Bud</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 28.01.2025 08:30</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 14 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (25).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">соседи</span><span class="tag">затопление</span><span class="tag">ук</span><span class="tag">юридическая помощь</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/zalili-sosedi-sverkhu-uk-bezdeistvuet-kuda-zhalovatsia.html">Залили соседи сверху, УК бездействует. Куда жаловаться?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Столкнулся с неприятной ситуацией: на выходных соседи сверху устроили потоп, у меня в комнате теперь натяжной потолок висит с водой и обои отошли. Вызывал аварийку, акт составили, но управляющая компания теперь открещивается и говорит, что это чисто личные разборки между собственниками, хотя стояк общий тоже проверяли. Соседи сверху дверь не открывают и на связь не выходят. Подскажите, кто сталкивался, с чего вообще начинать действовать и реально ли добиться компенсации через суд?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Daria_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 27.01.2025 16:27</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">покупка квартиры</span><span class="tag">доверенность</span><span class="tag">юридические вопросы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/pokupka-kvartiry-po-doverennosti-stoit-li-riskovat.html">Покупка квартиры по доверенности: стоит ли рисковать?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Сейчас нахожусь в другой стране, но очень хочу купить квартиру в Москве, пока цены не улетели в космос. Нашел подходящий вариант, но продавец настаивает на сделке через моего представителя по нотариальной доверенности. Подскажите, кто уже сталкивался с таким форматом дистанционной покупки? Насколько это безопасно и какие подводные камни могут всплыть при проверке документов? Буду благодарен за любые советы и рекомендации, как лучше обезопасить себя в такой ситуации.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stan_R</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 25.01.2025 23:05</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость в болгарии</span><span class="tag">ремонт</span><span class="tag">старый дом</span><span class="tag">възрожденски стил</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/pokupka-starogo-bolgarskogo-doma-v-stile-vzrozhdenski-stoit-li-sviazyvatsia-s-restavratsiei.html">Покупка старого болгарского дома в стиле възрожденски: стоит ли связываться с реставрацией?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Давно присматриваемся к недвижимости в Болгарии, и очень уж нравятся старые дома в стиле болгарского возрождения (възрожденски стил). Нашли вариант в живописном селе, цена приятная, но состояние, конечно, требует серьезных вложений - крыша, коммуникации, местами фахверк. Подскажите, кто уже сталкивался с покупкой и восстановлением таких объектов, насколько это бюрократически и финансово заморочно? Сильно ли душат местные законы по охране старинной архитектуры при проведении ремонта?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Chris_Tech</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 25.01.2025 04:19</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (12).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">налог</span><span class="tag">недвижимость</span><span class="tag">продажа</span><span class="tag">НДФЛ</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/nalog-pri-prodazhe-nedvizhimosti-kogda-mozhno-ne-platit.html">Налог при продаже недвижимости: когда можно не платить?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Добрый день всем! Подскажите, пожалуйста, по такому вопросу: собираюсь продавать свою квартиру, которой владею уже больше 5 лет, но меньше минимального срока владения для полного освобождения от налога. Слышал, что есть какие-то условия, когда налог при продаже недвижимости платить не нужно или его можно уменьшить. Например, если это единственное жилье или если сразу покупаешь другое. Можете разъяснить, в каких конкретных случаях можно избежать уплаты НДФЛ или хотя бы минимизировать его? Очень не хочется платить большую сумму, если есть законные способы этого избежать. Заранее спасибо за советы!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stan_R</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 25.01.2025 03:32</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Недвижимость</span><span class="tag">Выбор района</span><span class="tag">Безопасность</span><span class="tag">Соседи</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/pokupka-doma-kak-proverit-raion-na-nalichie-problemnykh-sosedei.html">Покупка дома: как проверить район на наличие проблемных соседей?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Столкнулись с дилеммой: нашли отличный дом по хорошей цене, но он находится на окраине города, и есть подозрения, что неподалеку могут быть так называемые «цыганские махалы». Мы очень переживаем за будущую спокойную жизнь и безопасность детей. Как вообще можно проверить район перед покупкой? Какие есть неочевидные признаки, на что обращать внимание? Поделитесь, пожалуйста, своим опытом, кто уже сталкивался с подобным или знает, как грамотно провести разведку местности. Не хочется потом жалеть о покупке.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Cyril_1995</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 23:38</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (6).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Плесень</span><span class="tag">Покупка квартиры</span><span class="tag">Недвижимость у моря</span><span class="tag">Осмотр жилья</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/kak-naiti-skrytuiu-plesen-v-kvartire-u-moria-pri-letnem-osmotre.html">Как найти скрытую плесень в квартире у моря при летнем осмотре?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Добрый день! Планируем с семьей покупку квартиры на побережье, и меня очень беспокоит проблема плесени. Начиталась историй, что многие квартиры, особенно те, что сдавались или долго стояли закрытыми, могут быть сильно поражены. Летом, при открытых окнах и жаркой погоде, запах и следы могут быть незаметны. Подскажите, пожалуйста, на что обратить внимание при осмотре? Есть ли какие-то хитрости, как обнаружить плесень, которую пытаются скрыть? Особенно интересуют места, которые часто упускают из виду.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Matt_90</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 07:56</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">задаток</span><span class="tag">суд</span><span class="tag">юридический совет</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/kto-nibud-uspeshno-otsuzhival-zadatok-kaparo-u-prodavtsa-kotoryi-peredumal.html">Кто-нибудь успешно отсуживал задаток (капаро) у продавца, который передумал?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Ситуация такая: внесли задаток за квартиру, подписали предварительный договор, все как положено. Через неделю продавец звонит и говорит, что передумал продавать, мол, нашел покупателя с наличкой дороже или просто семейные обстоятельства изменились. Деньги возвращать в двойном размере, как прописано в законе, отказывается - говорит, забирайте свой задаток обратно и до свидания. Подскажите, есть ли реальный опыт возврата денег через суд? Стоит ли вообще ввязываться в судебные разбирательства, учитывая все судебные издержки и потраченное время?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> John_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 02:31</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (23).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">инвестиции</span><span class="tag">апартаменты</span><span class="tag">аренда</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/sdacha-apartamentov-cherez-uk-stoit-li-ovchinka-vydelki.html">Сдача апартаментов через УК: стоит ли овчинка выделки?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Задумался о покупке апартаментов под инвестицию, но не хочу заниматься заселением и уборкой самостоятельно. Представители застройщика активно навязывают свою управляющую компанию, обещая стабильный доход и полное управление процессом. Подскажите, насколько реальна доходность, которую они рисуют в своих презентациях, и много ли там скрытых комиссий? Может, у кого-то есть опыт работы с такими компаниями в Москве или Питере, стоит ли вообще с этим связываться или лучше искать другие варианты?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Adrian_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 23:35</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">ремонт</span><span class="tag">управляющая компания</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/zamena-okon-v-apartamentakh-kak-byt-s-soglasovaniem-tsveta.html">Замена окон в апартаментах: как быть с согласованием цвета?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Собираемся менять старые застройщиковские окна в курортном комплексе на нормальные стеклопакеты, потому что зимой от них сильно дует. Подскажите, кто уже сталкивался с этим в подобных комплексах, обязательно ли согласовывать цвет и раскладку рам с управляющей компанией? Не хочется потом получить штраф или предписание всё переделывать за свой счет. И если нужно согласовывать, то как быстро они дают ответ?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Dan_22</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 21:04</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (23).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">торги</span><span class="tag">чси</span><span class="tag">покупка жилья</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/kto-nibud-pokupal-kvartiru-cherez-torgi-chsi-stoit-li-sviazyvatsia.html">Кто-нибудь покупал квартиру через торги ЧСИ? Стоит ли связываться?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Давно присматриваю варианты жилья подешевле и наткнулся на сайт с арестованной недвижимостью от судебных приставов. Цены там, конечно, очень привлекательные, иногда на 30-40 ниже рынка, но меня терзают смутные сомнения. Читал, что там могут быть проблемы с выселением прежних жильцов и скрытые долги по коммуналкам. Расскажите, кто реально участвовал в таких торгах и оформлял всё на себя, какие подводные камни могут ждать?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stan_R</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 18:11</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (14).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">ЖКХ</span><span class="tag">юридическая помощь</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/otkaz-ot-oplaty-basseina-v-zhk-est-li-zakonnye-osnovaniia.html">Отказ от оплаты бассейна в ЖК: есть ли законные основания?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Столкнулись с такой ситуацией в нашем ЖК: управляющая компания включила в квитанцию графу «содержание бассейна», хотя я им вообще не пользуюсь и даже не хожу в ту зону. На собрании жильцов большинство проголосовало за его функционирование, но я считаю несправедливым платить за услугу, которая мне не нужна. Можно ли как-то юридически отказаться от этой части платежа или это общедомовое имущество, за которое обязаны платить все? Буду благодарен за любой совет или личный опыт решения подобных споров с УК.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Sophie_R</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 15:26</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (10).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ремонт квартир</span><span class="tag">Варна</span><span class="tag">строители</span><span class="tag">недвижимость</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/ishchu-brigadu-dlia-remonta-kvartiry-v-varne.html">Ищу бригаду для ремонта квартиры в Варне</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Добрый день, уважаемые форумчане! Планируем переезд в Варну и хотим сразу же сделать ремонт в купленной квартире. Квартира старая, требует полного капитального ремонта. Очень важно найти надежных и ответственных людей, которые качественно выполнят работу. Может быть, кто-то из вас недавно делал ремонт и может порекомендовать проверенную бригаду? Буду благодарен за любые контакты, отзывы и советы. Интересует как сама бригада (желательно русскоязычная или с хорошим знанием русского), так и примерные расценки на работы.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Art_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 12:15</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 14 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (18).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">парковка</span><span class="tag">покупка квартиры</span><span class="tag">авто</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/est-li-smysl-pokupat-parkomesto-v-komplekse-esli-ono-stoit-10k-evro.html">Есть ли смысл покупать паркоместо в комплексе, если оно стоит 10к евро?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Мучаюсь вопросом, стоит ли брать паркоместо в подземном паркинге нашего ЖК. Застройщик просит за него 10 тысяч евро, и для меня это довольно приличная сумма сверху к стоимости квартиры. С одной стороны, машин во дворе становится всё больше, поставить вечером реально некуда, да и зимой с прогревом и снегом возиться не хочется. С другой стороны, аренда такого места стоит около 70-80 евро в месяц, то есть отбиваться покупка будет лет десять. Как думаете, переплата оправдана или лучше продолжать искать место на улице?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Monica_P</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 06:14</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">загородный дом</span><span class="tag">бюджет</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/realno-li-naiti-zhivoi-dom-v-sele-za-15-tysiach-evro.html">Реально ли найти живой дом в селе за 15 тысяч евро?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Решили с женой присмотреть небольшой домик в деревне для отдыха на лето, бюджет ограничен 15 тысячами евро. Смотрю объявления на сайтах, и везде либо полные развалюхи под снос, либо варианты с документами, где конь не валялся. Подскажите, есть ли вообще смысл искать в этом ценовом сегменте что-то, куда можно просто заехать и жить? Или за такие деньги сейчас реально продают только землю, а дом идет как бесплатное приложение под капитальный ремонт?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yulia_Z</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 10:23</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (21).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">тепловой насос</span><span class="tag">отопление</span><span class="tag">дом у моря</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/kto-to-stavil-teplovoi-nasos-v-dom-u-moria-opravdalis-li-zatraty.html">Кто-то ставил тепловой насос в дом у моря? Оправдались ли затраты?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Строим дом в курортной зоне прямо у побережья, сейчас ломаем голову над системой отопления и кондиционирования. Думаем в сторону теплового насоса воздух-вода, так как зимой у нас сильных морозов нет, зато влажность высокая и ветра постоянные. Подскажите, кто уже сталкивался с такой эксплуатацией в условиях морского климата? Сильно ли страдает наружный блок от соли и влаги, и действительно ли счета за электричество получаются меньше по сравнению с обычным конвекторным отоплением?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> David_85</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 04:51</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (4).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Равда</span><span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">переезд</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/stoit-li-pokupat-kvartiru-v-ravde-dlia-pmzh-ili-otdykha.html">Стоит ли покупать квартиру в Равде для ПМЖ или отдыха?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Добрый день! Мы с семьей серьезно задумались о покупке недвижимости в Болгарии, и сейчас рассматриваем Равду как основной вариант. С одной стороны, цены там кажутся вполне адекватными, да и море совсем близко, но пугает вопрос инфраструктуры вне туристического сезона. Хотелось бы узнать мнение тех, кто там уже живет: насколько комфортно в поселке зимой, не превращается ли он в «мертвую зону»? Также интересно услышать про качество строительства новых комплексов, а то наслышаны о проблемах с влажностью в некоторых домах.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stan_R</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 15:59</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (15).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">море</span><span class="tag">города</span><span class="tag">переезд</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/vash-liubimyi-neraspiarennyi-gorodok-u-moria-dlia-pokupki-kvartiry.html">Ваш любимый нераспиаренный городок у моря для покупки квартиры?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Задумался о покупке небольшой квартиры у моря для себя, чтобы можно было приезжать на лето, а остальное время жить или сдавать. Сочи, Анапу и Геленджик даже не рассматриваю - там сейчас бешеные цены, толпы туристов и застраивают каждый свободный метр. Хочется найти какое-то тихое, уютное место, где еще адекватные цены на недвижимость, нормальная инфраструктура и нет толп на пляжах. Поделитесь опытом, кто где покупал или присматривал жилье, какие у вас любимые небольшие прибрежные города?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Anna_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 11:14</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">покупка квартиры</span><span class="tag">риелторы</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/agentstvo-prosit-komissiiu-3-s-pokupatelia-eto-normalnaia-praktika-v-bolgarii.html">Агентство просит комиссию 3% с покупателя. Это нормальная практика в Болгарии?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Присмотрели квартиру в Варне через местного риелтора. Вроде бы всё нравится, но при оформлении договора они выставили условие: комиссия агентства составляет 3% с покупателя. Раньше я думал, что обычно платит только продавец, ну или комиссия делится поровну. Подскажите, кто уже покупал недвижимость в Болгарии, это стандартные аппетиты местных агентств или нас пытаются развести на лишние деньги?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Zoe_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 11:04</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (11).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Болгария</span><span class="tag">недвижимость</span><span class="tag">банковский счет</span><span class="tag">эмиграция</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/otkrytie-bankovskogo-scheta-v-bolgarii-dlia-nerezidentov-v-2024-godu.html">Открытие банковского счета в Болгарии для нерезидентов в 2024 году</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Добрый день! Планирую покупку апартаментов в Болгарии и столкнулся с вопросом оплаты сделки. Подскажите, пожалуйста, открывают ли сейчас болгарские банки счета иностранцам (не гражданам ЕС) просто для совершения покупки недвижимости? Слышал, что требования сильно ужесточились и без ВНЖ это сделать практически нереально. Может быть, кто-то сталкивался с этим в последние месяцы и может порекомендовать банк, который более лоялен к таким запросам? Буду очень признателен за актуальную информацию.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> John_DIY</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 09.01.2025 11:36</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (16).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">домашние животные</span><span class="tag">законы</span><span class="tag">соседи</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/razreshat-li-derzhat-bolshuiu-sobaku-v-zakrytom-komplekse-s-basseinom.html">Разрешат ли держать большую собаку в закрытом комплексе с бассейном?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Мы сейчас выбираем квартиру в новом жилом комплексе закрытого типа, там есть своя территория и бассейн. У нас лабрадор, пес крупный, но очень добрый и воспитанный. Переживаем, разрешат ли вообще держать таких собак на территории, особенно учитывая наличие бассейна и зоны отдыха. Может, кто-то сталкивался с подобными правилами в ЖК? Не хочется потом платить штрафы или выслушивать жалобы от соседей.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Matt_90</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 09.01.2025 05:43</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (26).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">юридическая помощь</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/poisk-proverennogo-advokata-po-nedvizhimosti-burgas-nesebr.html">Поиск проверенного адвоката по недвижимости (Бургас/Несебр)</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Планирую покупку апартаментов в районе Несебра или Солнечного берега, но очень переживаю за юридическую чистоту сделки. Хочется найти грамотного специалиста, который сможет проверить документы на объект, отсутствие обременений и корректно составить договор. Возможно, у кого-то есть контакты проверенного адвоката, который говорит по-русски и уже помогал форумчанам с покупкой жилья в Болгарии? Буду очень благодарен за рекомендации, так как не хочется нарваться на неприятности с документами.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Zoe_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 08.01.2025 08:21</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">кондиционер</span><span class="tag">отопление</span><span class="tag">daikin</span><span class="tag">mitsubishi</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/vybor-konditsionera-dlia-obogreva-zimoi-daikin-ili-mitsubishi.html">Выбор кондиционера для обогрева зимой. Daikin или Mitsubishi?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Задумался о покупке инверторной сплит-системы, которую планирую использовать не только на охлаждение летом, но и как дополнительный источник тепла в межсезонье и зимой (до -15...-20 градусов). Бюджет позволяет рассмотреть топовые бренды, поэтому выбор свелся к двум маркам: Daikin и Mitsubishi Electric. Подскажите, у кого из них лучше реализован зимний комплект и стабильнее работа на обогрев? Может, кто-то уже эксплуатирует конкретные серии в реальных условиях - поделитесь опытом, пожалуйста.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Mike_IT</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 07.01.2025 14:38</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ремонт</span><span class="tag">новостройка</span><span class="tag">София</span><span class="tag">стоимость</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/skolko-seichas-stoit-remont-pod-kliuch-v-novostroike-v-sofii.html">Сколько сейчас стоит ремонт "под ключ" в новостройке в Софии?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем доброго дня! Купили квартиру в новостройке в Софии и теперь вплотную подошли к вопросу ремонта. Хотим сразу сделать "под ключ", чтобы потом не заморачиваться и просто заехать. Подскажите, пожалуйста, кто недавно делал или в курсе, сколько сейчас это может стоить за квадратный метр? Интересует полная отделка, без мебели, но с сантехникой и электрикой. Какие есть подводные камни, на что обратить внимание при выборе бригады или компании? Очень хочется понять актуальный бюджет, чтобы не попасть впросак. Буду благодарен за любые советы и рекомендации!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Slav_Tech</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 23:45</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (10).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">первый этаж</span><span class="tag">безопасность</span><span class="tag">плесень</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/pervyi-etazh-opaseniia-i-preimushchestva-kvartiry.html">Первый этаж: опасения и преимущества квартиры</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Присматриваем квартиру и один из вариантов - на первом этаже. Цена привлекательная, но очень смущают несколько моментов. Во-первых, боюсь сырости и плесени, особенно в углах и на полу. Как там вообще с отоплением и влажностью? Не будет ли постоянно холодно? Во-вторых, вопрос безопасности. Насколько реально защититься от воров, если окна так низко? Есть ли смысл ставить решетки или это перебор? Поделитесь, пожалуйста, своим опытом: кто жил или живет на первом этаже? С какими проблемами сталкивались и какие есть неочевидные плюсы?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Nick_W</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 23:18</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (15).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Болгария</span><span class="tag">переезд</span><span class="tag">работа</span><span class="tag">дети</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/varna-ili-burgas-gde-legche-naiti-rabotu-i-ustroit-detei-v-shkolu-posle-pereezda.html">Варна или Бургас? Где легче найти работу и устроить детей в школу после переезда?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Мы с семьей планируем переезд в Болгарию и сейчас на распутье: выбрать Варну или Бургас. У нас двое детей школьного возраста, поэтому очень важно понять, как обстоят дела с государственными и русскоязычными школами в обоих городах. Также мужу нужно будет искать работу, в идеале в сфере IT или маркетинга, а мне подойдет любая удаленка. Где, по вашему опыту, проще адаптироваться и жизнь комфортнее для семьи с детьми?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Monica_P</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 22:51</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (23).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Солнечный берег</span><span class="tag">недвижимость</span><span class="tag">Болгария</span><span class="tag">такса поддержки</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/taksa-podderzhki-12-evro-za-metr-grabezh-ili-norma.html">Такса поддержки 12 евро за метр - грабеж или норма?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Всем привет! Присматриваюсь к покупке апартамента на Солнечном берегу и наткнулся на вариант в хорошем комплексе, но там управляющая компания выставила таксу 12 евро за квадрат в год. Мне кажется, что для Болгарии это уже перебор, особенно учитывая нынешние реалии. Подскажите, пожалуйста, какие сейчас расценки в среднем по курорту и стоит ли вообще связываться с таким дорогим обслуживанием? Буду признателен за советы от тех, кто владеет недвижимостью в этом районе.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Alex_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 21:12</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 replies</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://bgimoti.forum/ava/135540 (20).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижимость</span><span class="tag">риски</span><span class="tag">юридические вопросы</span><span class="tag">покупка квартиры</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://bgimoti.forum/posts/pokupka-kvartiry-s-aktom-15-stoit-li-sviazyvatsia.html">Покупка квартиры с Актом 15: стоит ли связываться?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Присмотрел отличную квартиру, но застройщик на данный момент получил только Акт 15. Вроде бы дом готов, но с вводом в эксплуатацию и получением Акта 16 возникли задержки, а сейчас вообще ходят слухи, что фирма на грани банкротства. Подскажите, насколько это критично и с какими реальными проблемами я могу столкнуться, если застройщик совсем пропадет с радаров? Можно ли как-то самостоятельно довести дом до ума или это путь в никуда?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Cyril_1995</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 03:21</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 replies</span>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="pagination">
+        
+        
+        <a href="https://bgimoti.forum/" class="page-link ">1</a>
+        
+        
+        <a href="https://bgimoti.forum/page_2.html" class="page-link active">2</a>
+        
+        
+        <a href="https://bgimoti.forum/page_3.html" class="page-link ">3</a>
+        
+    </div>
+    
+    
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card card-dark">
+                    <h3 class="widget-title">Forum Statistics</h3>
+                    <ul class="stat-list">
+                        <li><span>Topics:</span> <span>70</span></li>
+                        <li><span>Posts:</span> <span>1047</span></li>
+                        <li><span>Users:</span> <span>126</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="widget-title">Recently Active</h3>
+                    <ul class="random-links">
+                        
+                        <li><a href="https://bgimoti.forum/posts/sdacha-kvartiry-po-gosprogramme-dlia-bezhentsev-stoit-li-sviazyvatsia.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Сдача квартиры по госпрограмме для беженцев: стоит ли связываться?</a></li>
+                        
+                        <li><a href="https://bgimoti.forum/posts/otkrytie-bankovskogo-scheta-v-bolgarii-dlia-nerezidentov-v-2024-godu.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Открытие банковского счета в Болгарии для нерезидентов в 2024 году</a></li>
+                        
+                        <li><a href="https://bgimoti.forum/posts/kak-perevestis-s-promyshlennogo-tarifa-na-bytovoi-v-chastnom-dome.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Как перевестись с промышленного тарифа на бытовой в частном доме?</a></li>
+                        
+                        <li><a href="https://bgimoti.forum/posts/skolko-seichas-stoit-remont-pod-kliuch-v-novostroike-v-sofii.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Сколько сейчас стоит ремонт "под ключ" в новостройке в Софии?</a></li>
+                        
+                        <li><a href="https://bgimoti.forum/posts/zalili-sosedi-sverkhu-uk-bezdeistvuet-kuda-zhalovatsia.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Залили соседи сверху, УК бездействует. Куда жаловаться?</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h4 class="footer-title"><svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> Forum Hub</h4>
+                    <p class="footer-text">A community for sharing knowledge and experiences. We create a place for cultured discussions on all topics.<br><br>&copy; 2026 All rights reserved.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Forum Rules</h4>
+                    <p class="footer-text">Spam, insults, inappropriate content, and trolling are strictly prohibited. Let's maintain a high level of discussion.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Information</h4>
+                    <p class="footer-text">This site uses cookies for proper functionality.<br><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
